@@ -27,6 +27,7 @@ $ edit items.yaml # see file format below
 $ nanopos --items-path items.yaml --charge-token mySecretToken --currency USD
 HTTP server running on localhost:9116
 ```
+That's it! The web server should now be running on port 9116 and ready to accept payments.
 
 ## Running from Docker
 
@@ -39,8 +40,6 @@ and then run with
 ```
 docker run -p9116:9116 -d elements_project/nanopos
 ```
-
-That's it! The web server should now be running on port 9116 and ready to accept payments.
 
 ## Example `items.yaml` file
 
